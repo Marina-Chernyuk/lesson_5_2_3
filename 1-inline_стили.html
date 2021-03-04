@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Кнопка</button>
+    <textarea></textarea>
+
+    <!-- Задание. Сделайте с помощью javascript размер шрифта в кнопке 30px,
+    а в textarea сделайте зеленый фон. Используйте свойство style у каждого
+    из элементов. -->
+
+    <script>
+        'use strict';
+
+        // Хотела выровнять по одной горизонтальной линии)), не поолучилось
+
+        let button = document.querySelector('button');
+        button.style.fontSize = '30px';
+        button.style.textAlign = 'left';
+        button.style.padding = '10px';
+        // button.style.paddingTop = '10px';
+       // button.style.paddingBottom = '10px';
+        button.style.marginBottom = '50px';
+
+
+        let textarea = document.querySelector('textarea');
+        textarea.style.background = 'green';
+        textarea.style.height = '50px';
+        textarea.style.width = '120px';
+        textarea.style.marginLeft = '40px';
+        textarea.style.marginTop = '20px';
+
+        let body = document.querySelector('body');
+        body.style.height = '100px';
+        
+    </script>
+</body>
+</html>
